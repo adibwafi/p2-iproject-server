@@ -17,6 +17,7 @@ app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
+//register customer
 app.post("/register", async (req, res, next) => {
   try {
     console.log(req.body);
@@ -42,6 +43,7 @@ app.post("/register", async (req, res, next) => {
   }
 });
 
+//login
 app.post("/login", async (req, res, next) => {
   try {
     const { email, password } = req.body;
@@ -68,6 +70,7 @@ app.post("/login", async (req, res, next) => {
   }
 });
 
+//authentication
 app.use(async (req, res, next) => {
   try {
     const { access_token } = req.headers;
@@ -89,6 +92,7 @@ app.use(async (req, res, next) => {
   }
 });
 
+//fetch items
 app.get("/items", async (req, res, next) => {
   try {
     const items = await Item.findAll({
@@ -104,6 +108,7 @@ app.get("/items", async (req, res, next) => {
   }
 });
 
+//fetch rentitems
 app.get("/rentitems", async (req, res, next) => {
   try {
     const rentitems = await RentItem.findAll({
@@ -130,6 +135,7 @@ app.get("/rentitems", async (req, res, next) => {
   }
 });
 
+//add rentitems by id
 app.post("/rentitems/:id", async (req, res, next) => {
   try {
     // console.log(req.params.id, "dkjhwajdhjhdahdljwhd")
@@ -138,6 +144,27 @@ app.post("/rentitems/:id", async (req, res, next) => {
       UserId: req.user.id,
       ItemId: id,
     });
+    res.status(200).json({
+      response,
+    });
+  } catch (err) {
+    console.log(err);
+  }
+});
+
+//update status
+app.patch("/items/:id", async (req, res, next) => {
+  try {
+    console.log(req.body, "=============>>>>>>>>>>>");
+    let id = req.params.id
+    let { status } = req.body;
+    const response = await Item.update(
+      { status },
+      {
+        where: { id },
+        returning: true,
+      }
+    );
     res.status(200).json({
       response,
     });
