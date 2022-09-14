@@ -155,7 +155,7 @@ app.post("/rentitems/:id", async (req, res, next) => {
 //update status
 app.patch("/items/:id", async (req, res, next) => {
   try {
-    console.log(req.body, "=============>>>>>>>>>>>");
+    // console.log(req.body, "=============>>>>>>>>>>>");
     let id = req.params.id
     let { status } = req.body;
     const response = await Item.update(
