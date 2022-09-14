@@ -1,0 +1,26 @@
+[
+    {
+        "username": "junaedi",
+        "email": "juneadi@mail.com",
+        "password": "12345",
+        "role": "admin",
+        "phoneNumber": "082113434593",
+        "address": "Jalan jenderal patimura"
+    },
+    {
+        "username": "bokir",
+        "email": "bokir@mail.com",
+        "password": "12345",
+        "role": "customer",
+        "phoneNumber": "08135434593",
+        "address": "Jalan simanjuntak"
+    },
+    {
+        "username": "sabi",
+        "email": "sabi@mail.com",
+        "password": "12345",
+        "role": "customer",
+        "phoneNumber": "08568373647",
+        "address": "jalan jalan"
+    }
+]

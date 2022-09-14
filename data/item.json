@@ -1,0 +1,114 @@
+[
+    {
+        "name": "Sony FE 24-70mm F2.8 GM Lens",
+        "brand": "sony",
+        "type": "lens",
+        "price": 250000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Sony%20GM%2024-70-500x500.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony FE 16-35mm F2.8 GM Lens",
+        "brand": "sony",
+        "type": "lens",
+        "price": 250000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Sony%20G%20Master%2016-35-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony FE 70-200mm F2.8 GM OSS Lens",
+        "brand": "sony",
+        "type": "lens",
+        "price": 300000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Sony%20fe%2070-200mm-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony FE 85mm f/1.4 GM Lens",
+        "brand": "sony",
+        "type": "lens",
+        "price": 200000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Sony%2085mm%20GM-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Canon Lens EF 24-105mm f/4L USM",
+        "brand": "canon",
+        "type": "lens",
+        "price": 100000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/canon_24-105-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Canon Lens Fix EF 35mm f/1.4L USM",
+        "brand": "canon",
+        "type": "lens",
+        "price": 150000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Canon-EF-35mm-f-1.4-L-USM-Lens-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Canon Lens EF 70-200mm f2.8 L II IS USM",
+        "brand": "canon",
+        "type": "lens",
+        "price": 175000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Lensa%20Canon%2070-200-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Canon Lens EF 24-70mm f/2.8 L II USM",
+        "brand": "canon",
+        "type": "lens",
+        "price": 175000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/24-70-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Laowa 24mm f/14 Probe Lens PL Mount",
+        "brand": "laowa",
+        "type": "lens",
+        "price": 900000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Laowa%2024mm-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony FE 100-400mm f/4.5-5.6 GM OSS Lens",
+        "brand": "sony",
+        "type": "lens",
+        "price": 450000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/sony%20100%20400%202-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony FE 12-24mm F2.8 GM Lens",
+        "brand": "sony",
+        "type": "lens",
+        "price": 350000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Lensa%20Canon/Sony%2012-24mm-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony a7S Mark III",
+        "brand": "sony",
+        "type": "body",
+        "price": 650000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Camera/A7sIII-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Sony Sony a7 III",
+        "brand": "sony",
+        "type": "body",
+        "price": 350000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Camera/a7%20iii-228x228.jpg",
+        "status": "available"
+    },
+    {
+        "name": "Canon EOS 5D Mark III",
+        "brand": "canon",
+        "type": "body",
+        "price": 300000,
+        "imgUrl": "https://bsmentertainment.com/image/cache/catalog/Camera/5D%20Mark%20iii-228x228.jpg",
+        "status": "available"
+    }
+]
