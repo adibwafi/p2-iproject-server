@@ -1,6 +1,6 @@
 [
     {
-        "name": "Sony FE 24-70mm F2.8 GM Lens",
+        "name": "Sony FE 24-70mm F/2.8 GM Lens",
         "brand": "sony",
         "type": "lens",
         "price": 250000,
@@ -8,7 +8,7 @@
         "status": "available"
     },
     {
-        "name": "Sony FE 16-35mm F2.8 GM Lens",
+        "name": "Sony FE 16-35mm F/2.8 GM Lens",
         "brand": "sony",
         "type": "lens",
         "price": 250000,
@@ -16,7 +16,7 @@
         "status": "available"
     },
     {
-        "name": "Sony FE 70-200mm F2.8 GM OSS Lens",
+        "name": "Sony FE 70-200mm F/2.8 GM OSS Lens",
         "brand": "sony",
         "type": "lens",
         "price": 300000,
@@ -48,7 +48,7 @@
         "status": "available"
     },
     {
-        "name": "Canon Lens EF 70-200mm f2.8 L II IS USM",
+        "name": "Canon Lens EF 70-200mm f/2.8 L II IS USM",
         "brand": "canon",
         "type": "lens",
         "price": 175000,
@@ -80,7 +80,7 @@
         "status": "available"
     },
     {
-        "name": "Sony FE 12-24mm F2.8 GM Lens",
+        "name": "Sony FE 12-24mm F/2.8 GM Lens",
         "brand": "sony",
         "type": "lens",
         "price": 350000,
