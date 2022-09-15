@@ -11,7 +11,7 @@ const {
 } = require("./helpers/helper");
 require("dotenv").config();
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000
 
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
@@ -108,6 +108,23 @@ app.get("/items", async (req, res, next) => {
   }
 });
 
+//fetch items by id
+app.get("/items/:id", async (req, res, next) => {
+  try {
+    let id = +req.params.id;
+    const currentItem = await Item.findByPk(id);
+    // console.log(currentItem)
+    if (!currentItem) {
+      throw { name: "item not found" };
+    }
+    res.status(200).json({
+      currentItem,
+    });
+  } catch (err) {
+    console.log(err);
+  }
+});
+
 //fetch rentitems
 app.get("/rentitems", async (req, res, next) => {
   try {
@@ -127,6 +144,9 @@ app.get("/rentitems", async (req, res, next) => {
         },
       ],
     });
+    if (!rentitems) {
+      throw { name: "Rent items not found" };
+    }
     res.status(200).json({
       rentitems,
     });
@@ -144,6 +164,9 @@ app.post("/rentitems/:id", async (req, res, next) => {
       UserId: req.user.id,
       ItemId: id,
     });
+    if (!response) {
+      throw { name: "Rent items not found" };
+    }
     res.status(200).json({
       response,
     });
@@ -156,7 +179,7 @@ app.post("/rentitems/:id", async (req, res, next) => {
 app.patch("/items/:id", async (req, res, next) => {
   try {
     // console.log(req.body, "=============>>>>>>>>>>>");
-    let id = req.params.id
+    let id = req.params.id;
     let { status } = req.body;
     const response = await Item.update(
       { status },

@@ -3,9 +3,11 @@
     "test": "jest --runInBand --forceExit --verbose",
     "seq": "sequelize db:drop && sequelize-cli db:create && sequelize-cli db:migrate && sequelize-cli db:seed:all",
     "dev-test": "npx sequelize-cli db:drop --env test && npx sequelize-cli db:create --env test && npx sequelize-cli db:migrate --env test && npx sequelize-cli db:seed:all --env test",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "dependencies": {
+    "axios": "^0.27.2",
     "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
