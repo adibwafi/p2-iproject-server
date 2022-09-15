@@ -9,7 +9,9 @@ const {
   signPayload,
   isValid,
 } = require("./helpers/helper");
-require("dotenv").config();
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config();
+  }
 
 const PORT = process.env.PORT || 3000
 
